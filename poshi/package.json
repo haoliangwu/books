@@ -15,6 +15,7 @@
     "gitbook-plugin-toggle-chapters": "^0.0.3"
   },
   "devDependencies": {
+    "gitbook-plugin-duoshuo": "^1.6.3",
     "gulp-clean": "^0.3.2",
     "gulp-zip": "^3.2.0",
     "md5": "^2.0.0"

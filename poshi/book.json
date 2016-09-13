@@ -8,11 +8,11 @@
     "prism",
     "-highlight",
     "splitter",
-    "disqus",
     "codeblock-filename",
     "toggle-chapters",
     "richquotes",
-    "addcssjs"
+    "addcssjs",
+    "duoshuo"
   ],
   "pluginsConfig": {
     "editlink": {
@@ -22,12 +22,15 @@
     "github": {
       "url": "https://github.com/haoliangwu/poshi"
     },
-    "disqus":{
-      "shortName":"poshiguide"
-    },
     "addcssjs": {
       "js": [],
-      "css": ["css/custom.css"]
+      "css": [
+        "css/custom.css"
+      ]
+    },
+    "duoshuo": {
+      "short_name": "littlelyon",
+      "theme": "default"
     }
   }
 }
