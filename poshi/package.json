@@ -1,0 +1,40 @@
+{
+  "name": "poshi-guideline",
+  "version": "1.0.0",
+  "description": "POSHI handbook for CNQA",
+  "dependencies": {
+    "gitbook-plugin-anchor-navigation": "0.0.1",
+    "gitbook-plugin-codeblock-filename": "^0.0.7",
+    "gitbook-plugin-disqus": "^0.1.0",
+    "gitbook-plugin-editlink": "^1.0.2",
+    "gitbook-plugin-exercises": "^2.0.0-alpha.3",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-multipart": "^0.3.0",
+    "gitbook-plugin-prism": "^1.0.0",
+    "gitbook-plugin-splitter": "^0.0.6",
+    "gitbook-plugin-toggle-chapters": "^0.0.3"
+  },
+  "devDependencies": {
+    "gulp-clean": "^0.3.2",
+    "gulp-zip": "^3.2.0",
+    "md5": "^2.0.0"
+  },
+  "scripts": {
+    "update": "gitbook serve",
+    "deploy": "gitbook build && gulp deploy",
+    "zip": "gitbook build && gulp zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haoliangwu/poshi.git"
+  },
+  "keywords": [
+    "poshi"
+  ],
+  "author": "Lyon Wu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haoliangwu/poshi/issues"
+  },
+  "homepage": "https://github.com/haoliangwu/poshi#readme"
+}

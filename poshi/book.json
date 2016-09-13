@@ -1,0 +1,33 @@
+{
+  "structure": {
+    "summary": "./SUMMARY.md"
+  },
+  "plugins": [
+    "github",
+    "editlink",
+    "prism",
+    "-highlight",
+    "splitter",
+    "disqus",
+    "codeblock-filename",
+    "toggle-chapters",
+    "richquotes",
+    "addcssjs"
+  ],
+  "pluginsConfig": {
+    "editlink": {
+      "base": "https://github.com/haoliangwu/poshi/master",
+      "label": "Edit This Page"
+    },
+    "github": {
+      "url": "https://github.com/haoliangwu/poshi"
+    },
+    "disqus":{
+      "shortName":"poshiguide"
+    },
+    "addcssjs": {
+      "js": [],
+      "css": ["css/custom.css"]
+    }
+  }
+}
