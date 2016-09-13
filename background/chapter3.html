@@ -1,0 +1,927 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <!-- Start book POSHI不完全攻略 -->
+    <head>
+        <!-- head:start -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Xpath | POSHI不完全攻略</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-prism/prism.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-splitter/splitter.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-disqus/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-codeblock-filename/block.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-richquotes/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../background/chapter4.html" />
+    
+    
+    <link rel="prev" href="../background/chapter2.html" />
+    
+
+        <!-- head:end -->
+<link rel="stylesheet" type="text/css" href="../css/custom.css">
+    </head>
+    <body>
+        <!-- body:start -->
+        
+    <div class="book"
+        data-level="1.3"
+        data-chapter-title="Xpath"
+        data-filepath="background/chapter3.md"
+        data-basepath=".."
+        data-revision="Tue Sep 13 2016 16:15:35 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="background/index.html">
+            
+                
+                    <a href="../background/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Background
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="background/chapter1.html">
+            
+                
+                    <a href="../background/chapter1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Web相关
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="background/chapter2.html">
+            
+                
+                    <a href="../background/chapter2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Selenium
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="background/chapter3.html">
+            
+                
+                    <a href="../background/chapter3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        Xpath
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="background/chapter4.html">
+            
+                
+                    <a href="../background/chapter4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        JUnit
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="basic/index.html">
+            
+                
+                    <a href="../basic/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Basic
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="basic/chapter1.html">
+            
+                
+                    <a href="../basic/chapter1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        设计及架构
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="basic/chapter2.html">
+            
+                
+                    <a href="../basic/chapter2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        基本语法
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="basic/chapter3.html">
+            
+                
+                    <a href="../basic/chapter3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        数据结构
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="basic/lib/function.html">
+            
+                
+                    <a href="../basic/lib/function.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.1.</b>
+                        
+                        Function
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="basic/lib/macro.html">
+            
+                
+                    <a href="../basic/lib/macro.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.2.</b>
+                        
+                        Macro
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="basic/lib/testcase.html">
+            
+                
+                    <a href="../basic/lib/testcase.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.3.</b>
+                        
+                        TestCase
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.4" data-path="basic/lib/path.html">
+            
+                
+                    <a href="../basic/lib/path.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.4.</b>
+                        
+                        Path
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="basic/chapter4.html">
+            
+                
+                    <a href="../basic/chapter4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        标签与属性
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1" data-path="basic/lib/basic_tag.html">
+            
+                
+                    <a href="../basic/lib/basic_tag.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.1.</b>
+                        
+                        基础型
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2" data-path="basic/lib/functional_tag.html">
+            
+                
+                    <a href="../basic/lib/functional_tag.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.2.</b>
+                        
+                        功能型
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="advance/index.html">
+            
+                
+                    <a href="../advance/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Advance
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="advance/chapter1.html">
+            
+                
+                    <a href="../advance/chapter1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        变量
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="advance/chapter2.html">
+            
+                
+                    <a href="../advance/chapter2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        扩展
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="advance/chapter3.html">
+            
+                
+                    <a href="../advance/chapter3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        指令
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="advance/chapter4.html">
+            
+                
+                    <a href="../advance/chapter4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        Sikuli
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="source/index.html">
+            
+                
+                    <a href="../source/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Source
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="source/chapter1.html">
+            
+                
+                    <a href="../source/chapter1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Liferay Selenium
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="source/chapter2.html">
+            
+                
+                    <a href="../source/chapter2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        POSHI Runner
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="appendix/index.html">
+            
+                
+                    <a href="../appendix/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Appendix
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="appendix/chapter1.html">
+            
+                
+                    <a href="../appendix/chapter1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        编写规范
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="appendix/lib/general.html">
+            
+                
+                    <a href="../appendix/lib/general.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.</b>
+                        
+                        General
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="appendix/lib/function.html">
+            
+                
+                    <a href="../appendix/lib/function.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.2.</b>
+                        
+                        Function
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3" data-path="appendix/lib/macro.html">
+            
+                
+                    <a href="../appendix/lib/macro.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.3.</b>
+                        
+                        Macro
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4" data-path="appendix/lib/testcase.html">
+            
+                
+                    <a href="../appendix/lib/testcase.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.4.</b>
+                        
+                        TestCase
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.5" data-path="appendix/lib/path.html">
+            
+                
+                    <a href="../appendix/lib/path.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.5.</b>
+                        
+                        Path
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="demo/index.html">
+            
+                
+                    <a href="../demo/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Demo
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="demo/chapter1.html">
+            
+                
+                    <a href="../demo/chapter1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        Liferay相关
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" data-path="demo/demo1/part1.html">
+            
+                
+                    <a href="../demo/demo1/part1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.1.</b>
+                        
+                        Part1
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2" data-path="demo/demo1/part2.html">
+            
+                
+                    <a href="../demo/demo1/part2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.2.</b>
+                        
+                        Part2
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3" data-path="demo/demo1/part3.html">
+            
+                
+                    <a href="../demo/demo1/part3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.3.</b>
+                        
+                        Part3
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.4" data-path="demo/demo1/part4.html">
+            
+                
+                    <a href="../demo/demo1/part4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.4.</b>
+                        
+                        Part4
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.5" data-path="demo/demo1/part5.html">
+            
+                
+                    <a href="../demo/demo1/part5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.5.</b>
+                        
+                        Part5
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="demo/chapter2.html">
+            
+                
+                    <a href="../demo/chapter2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        非Liferay相关
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+    <a href="../GLOSSARY.html" class="btn pull-left" aria-label="Glossary"><i class="fa fa-sort-alpha-asc"></i></a>
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >POSHI不完全攻略</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="xpath&#x662F;&#x4EC0;&#x4E48;">Xpath&#x662F;&#x4EC0;&#x4E48;</h1>
+<p>&#x8FD8;&#x662F;&#x90A3;&#x53E5;&#x8BDD;&#xFF0C;&#x6B32;&#x5584;&#x5176;&#x5DE5;&#x5FC5;&#x987B;&#x5229;&#x5176;&#x5668;&#x3002;&#x6218;&#x4E89;&#x4E2D;&#x6B65;&#x5175;&#x4E4B;&#x6240;&#x4EE5;&#x4F5C;&#x4E3A;&#x4E2D;&#x575A;&#x529B;&#x91CF;&#xFF0C;&#x662F;&#x56E0;&#x4E3A;&#x4ED6;&#x4EEC;&#x914D;&#x5907;&#x5251;&#x548C;&#x76FE;&#xFF0C;&#x53EF;&#x653B;&#x53EF;&#x5B88;&#x3002;&#x867D;&#x7136;&#x6211;&#x4EEC;&#x6709;&#x4E86;<a href="../GLOSSARY.html#selenium" class="glossary-term" title="A Web testing framework">Selenium</a>&#x8FD9;&#x6837;&#x4E00;&#x628A;&#x950B;&#x5229;&#x7684;&#x5251;&#xFF0C;&#x8FD8;&#x9700;&#x8981;&#x4E00;&#x4E2A;&#x76FE;&#xFF0C;
+&#x800C;Xpath&#x5C31;&#x626E;&#x6F14;&#x7740;&#x8FD9;&#x6837;&#x4E00;&#x4E2A;&#x89D2;&#x8272;&#xFF0C;&#x5B83;&#x8F85;&#x52A9;<a href="../GLOSSARY.html#selenium" class="glossary-term" title="A Web testing framework">Selenium</a>&#x66F4;&#x597D;&#x5730;&#x5DE5;&#x4F5C;&#x3002;</p>
+<p>&#x8BE6;&#x89C1;<a href="http://baike.sogou.com/v760155.htm?fromTitle=Xpath" target="_blank">Xpath&#x4ECB;&#x7ECD;</a>&#x3002;</p>
+<h1 id="&#x6211;&#x6240;&#x9700;&#x8981;&#x4E86;&#x89E3;&#x7684;">&#x6211;&#x6240;&#x9700;&#x8981;&#x4E86;&#x89E3;&#x7684;</h1>
+<p>Xpath&#x4F5C;&#x4E3A;&#x4E00;&#x95E8;&#x5BFC;&#x822A;&#x8BED;&#x8A00;&#xFF0C;&#x4F1A;&#x5E2E;&#x52A9;<a href="../GLOSSARY.html#selenium" class="glossary-term" title="A Web testing framework">Selenium</a>&#x5728;DOM&#x6811;&#x4E2D;&#x67E5;&#x627E;&#x9700;&#x8981;&#x64CD;&#x4F5C;&#x7684;&#x5143;&#x7D20;&#x3002;&#x56E0;&#x6B64;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x4E86;&#x89E3;Xpath&#x7684;&#x8BED;&#x6CD5;&#xFF0C;&#x5C31;&#x597D;&#x6BD4;&#x8BF4;&#x8BDD;&#x4E00;&#x6837;&#xFF0C;&#x4E3B;&#x8C13;&#x5BBE;&#x7ED3;&#x6784;&#x4F7F;&#x7528;&#x6B63;&#x786E;&#xFF0C;
+&#x522B;&#x4EBA;&#x624D;&#x4F1A;&#x660E;&#x767D;&#x4F60;&#x7684;&#x610F;&#x601D;&#xFF0C;Xpath&#x4E5F;&#x662F;&#x540C;&#x7406;&#xFF0C;&#x53EA;&#x6709;&#x4F7F;&#x7528;&#x6B63;&#x786E;&#x7ED3;&#x6784;&#x7684;Xpath&#x8868;&#x8FBE;&#x5F0F;&#x624D;&#x80FD;&#x7CBE;&#x786E;&#x7684;&#x5B9A;&#x4F4D;&#x5230;&#x9700;&#x8981;&#x64CD;&#x4F5C;&#x7684;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x6216;&#x4E00;&#x7C7B;&#x5143;&#x7D20;&#x3002;</p>
+<p>&#x8BE6;&#x89C1;<a href="http://www.w3school.com.cn/Xpath/index.asp" target="_blank">Xpath&#x6559;&#x7A0B;</a>&#x3002;</p>
+<h1 id="&#x4E00;&#x4E9B;tips">&#x4E00;&#x4E9B;Tips</h1>
+<p>&#x8FD9;&#x91CC;&#x63D0;&#x4F9B;&#x4E00;&#x4E9B;&#x6211;&#x5728;&#x4F7F;&#x7528;Xpath&#x4E2D;&#x8E29;&#x8FC7;&#x7684;&#x5751;&#xFF0C;&#x524D;&#x8F66;&#x4E4B;&#x9274;&#x540E;&#x4E8B;&#x4E4B;&#x5E08;&#x3002;</p>
+<ul>
+<li><p><strong>&#x5B9A;&#x4F4D;&#x5C5E;&#x6027;&#x4F18;&#x5148;&#x7EA7;&#xFF08;&#x5C3D;&#x91CF;&#x4F7F;&#x7528;&#x5177;&#x6709;&#x552F;&#x4E00;&#x6027;&#x7684;id&#x5C5E;&#x6027;</strong></p>
+<ul>
+<li>id &gt; class &gt; &#x5176;&#x4ED6;&#x5C5E;&#x6027;</li>
+</ul>
+</li>
+</ul>
+<pre><code>eg: //section[@id=&apos;portlet_36&apos;]
+</code></pre><ul>
+<li><p><strong>&#x9009;&#x53D6;&#x65B9;&#x5F0F;&#x4F18;&#x5148;&#x7EA7;&#xFF08;&#x5C3D;&#x91CF;&#x4E00;&#x6B21;&#x9009;&#x53D6;&#x5355;&#x4E00;html&#x5143;&#x7D20;</strong></p>
+<ul>
+<li>&#x5355;&#x9009; &gt; &#x591A;&#x9009;</li>
+</ul>
+</li>
+</ul>
+<pre><code>eg: a/span &#x9009;&#x53D6;&#x6240;&#x6709;a&#x5143;&#x7D20;&#x4E2D;&#x7684;span&#x5143;&#x7D20;
+    /a/span &#x9009;&#x53D6;&#x7B2C;&#x4E00;&#x4E2A;a&#x5143;&#x7D20;&#x4E2D;&#x7684;&#x6240;&#x6709;span
+    /a[@id=&apos;1&apos;]/span &#x9009;&#x53D6;id&#x4E3A;1&#x7684;a&#x5143;&#x7D20;&#x4E2D;&#x7684;&#x6240;&#x6709;span&#x5143;&#x7D20;
+    /a[@id=&apos;1&apos;]/span[@id=&apos;2&apos;] &#x9009;&#x53D6;id&#x4E3A;1&#x7684;a&#x5143;&#x7D20;&#x4E2D;&#x7684;id&#x4E3A;2&#x7684;span&#x5143;&#x7D20;
+</code></pre><ul>
+<li><p><strong>&#x8DEF;&#x5F84;&#x8F6F;&#x786C;&#x7A0B;&#x5EA6;&#x4F18;&#x5148;&#x7EA7;&#xFF08;&#x5C3D;&#x91CF;&#x4F7F;&#x7528;&#x7EDD;&#x5BF9;&#x8DEF;&#x5F84;</strong></p>
+<ul>
+<li>&#x76F8;&#x5BF9; &gt; &#x7EDD;&#x5BF9; &gt; &#x6A21;&#x7CCA;</li>
+</ul>
+</li>
+</ul>
+<pre><code>eg: / &#x8868;&#x793A;&#x4ECE;&#x6839;&#x8282;&#x70B9;&#x5F00;&#x59CB;
+    // &#x8868;&#x793A;&#x4ECE;&#x6EE1;&#x8DB3;&#x5339;&#x914D;&#x4FE1;&#x606F;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x7ED3;&#x70B9;&#x5F00;&#x59CB;
+</code></pre><ul>
+<li><p><strong>&#x904D;&#x5386;&#x65B9;&#x5F0F;&#x4F18;&#x5148;&#x7EA7;&#xFF08;&#x7F29;&#x5C0F;&#x904D;&#x5386;&#x7684;&#x8303;&#x56F4;</strong></p>
+<ul>
+<li>&#x5F3A;&#x5236;&#x904D;&#x5386; &gt; &#x81EA;&#x7136;&#x904D;&#x5386;</li>
+</ul>
+</li>
+</ul>
+<pre><code>eg: <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>1<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>b</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>b</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>b</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>b</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>b</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>b</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+&#x9009;&#x53D6;&#x7B2C;&#x4E8C;&#x4E2A;b&#x53EF;&#x4EE5;&#x8FD9;&#x4E48;&#x5199;&#xFF08;&#x5047;&#x8BBE;b&#x6CA1;&#x6709;&#x5176;&#x4ED6;&#x53C2;&#x8003;&#x6761;&#x4EF6;&#xFF09; 
+//a[@id=&apos;1&apos;]/b[2] &#x9009;&#x53D6;id&#x4E3A;1&#x7684;a&#x5143;&#x7D20;&#x4E2D;&#x7684;&#x7B2C;&#x4E8C;&#x4E2A;b&#x5143;&#x7D20;
+</code></pre><ul>
+<li><p><strong>Xpath&#x652F;&#x6301;&#x7B80;&#x5355;&#x4E0E;&#x6216;&#x903B;&#x8F91;&#x8FD0;&#x7B97;</strong></p>
+<ul>
+<li>or &#x6216; and &#x4E0E; </li>
+</ul>
+</li>
+</ul>
+<pre><code>eg: //div[@id=&apos;1&apos; or @ class=&apos;alert&apos;] &#x9009;&#x53D6;id&#x4E3A;1&#x6216;class&#x4E3A;alert&#x7684;div&#x5143;&#x7D20;
+    //div[@id=&apos;1&apos; and @ class=&apos;alert&apos;] &#x9009;&#x53D6;id&#x4E3A;1&#x5207;class&#x4E3A;alert&#x7684;div&#x5143;&#x7D20;
+</code></pre><ul>
+<li><strong>&#x7075;&#x6D3B;&#x5E94;&#x7528;contains&#x5173;&#x952E;&#x5B57;</strong><pre><code>//a[contains(@class,&apos;info&apos;) &#x9009;&#x53D6;class&#x5305;&#x542B;info&#x5173;&#x952E;&#x5B57;&#x7684;&#x6240;&#x6709;a&#x5143;&#x7D20;
+</code></pre></li>
+</ul>
+<p>&#x4EE5;&#x4E0A;tips&#x53EF;&#x4EE5;&#x4E92;&#x76F8;&#x7A7F;&#x63D2;&#x4F7F;&#x7528;&#xFF0C;&#x4F7F;Xpath&#x66F4;&#x7CBE;&#x786E;</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../background/chapter2.html" class="navigation navigation-prev " aria-label="Previous page: Selenium"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../background/chapter4.html" class="navigation navigation-next " aria-label="Next page: JUnit"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-editlink/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-splitter/splitter.js"></script>
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-disqus/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"editlink":{"base":"https://github.com/haoliangwu/poshi/master","label":"Edit This Page","multilingual":false},"github":{"url":"https://github.com/haoliangwu/poshi"},"disqus":{"shortName":"poshiguide","useIdentifier":false},"addcssjs":{"js":[],"css":["css/custom.css"]},"prism":{},"splitter":{},"codeblock-filename":{},"toggle-chapters":{},"richquotes":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        <!-- body:end -->
+    </body>
+    <!-- End of book POSHI不完全攻略 -->
+</html>
