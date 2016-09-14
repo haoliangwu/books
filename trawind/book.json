@@ -9,10 +9,11 @@
     "-highlight",
     "splitter",
     "codeblock-filename",
-    "toggle-chapters",
     "richquotes",
     "addcssjs",
-    "duoshuo"
+    "duoshuo",
+    "-search",
+    "search-pro"
   ],
   "pluginsConfig": {
     "editlink": {
@@ -31,6 +32,9 @@
     "duoshuo": {
       "short_name": "lambot",
       "theme": "default"
+    },
+    "search-pro": {
+      "cutWordLib": "nodejieba"
     }
   }
 }
