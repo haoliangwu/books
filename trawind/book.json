@@ -1,0 +1,36 @@
+{
+  "structure": {
+    "summary": "./SUMMARY.md"
+  },
+  "plugins": [
+    "github",
+    "editlink",
+    "prism",
+    "-highlight",
+    "splitter",
+    "codeblock-filename",
+    "toggle-chapters",
+    "richquotes",
+    "addcssjs",
+    "duoshuo"
+  ],
+  "pluginsConfig": {
+    "editlink": {
+      "base": "https://github.com/haoliangwu/books/tree/master/trawind",
+      "label": "Edit This Page"
+    },
+    "github": {
+      "url": "https://github.com/haoliangwu/books/tree/master/trawind"
+    },
+    "addcssjs": {
+      "js": [],
+      "css": [
+        "css/custom.css"
+      ]
+    },
+    "duoshuo": {
+      "short_name": "lambot",
+      "theme": "default"
+    }
+  }
+}
