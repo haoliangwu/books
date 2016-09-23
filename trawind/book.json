@@ -1,40 +1,44 @@
 {
-  "structure": {
-    "summary": "./SUMMARY.md"
-  },
-  "plugins": [
-    "github",
-    "editlink",
-    "prism",
-    "-highlight",
-    "splitter",
-    "codeblock-filename",
-    "richquotes",
-    "addcssjs",
-    "duoshuo",
-    "-search",
-    "search-pro"
-  ],
-  "pluginsConfig": {
-    "editlink": {
-      "base": "https://github.com/haoliangwu/books/tree/master/trawind",
-      "label": "Edit This Page"
+    "structure": {
+        "summary": "./SUMMARY.md"
     },
-    "github": {
-      "url": "https://github.com/haoliangwu/books/tree/master/trawind"
-    },
-    "addcssjs": {
-      "js": [],
-      "css": [
-        "css/custom.css"
-      ]
-    },
-    "duoshuo": {
-      "short_name": "lambot",
-      "theme": "default"
-    },
-    "search-pro": {
-      "cutWordLib": "nodejieba"
+    "plugins": [
+        "github",
+        "editlink",
+        "prism",
+        "-highlight",
+        "splitter",
+        "codeblock-filename",
+        "richquotes",
+        "addcssjs",
+        "duoshuo",
+        "-search",
+        "search-pro",
+        "fancybox"
+    ],
+    "pluginsConfig": {
+        "editlink": {
+            "base": "https://github.com/haoliangwu/books/tree/master/trawind",
+            "label": "Edit This Page"
+        },
+        "github": {
+            "url": "https://github.com/haoliangwu/books/tree/master/trawind"
+        },
+        "addcssjs": {
+            "js": [],
+            "css": [
+                "css/custom.css"
+            ]
+        },
+        "duoshuo": {
+            "short_name": "lambot",
+            "theme": "default"
+        },
+        "search-pro": {
+            "cutWordLib": "nodejieba"
+        },
+        "fancybox": {
+            "margin": [20, 60, 20, 60]
+        }
     }
-  }
 }
