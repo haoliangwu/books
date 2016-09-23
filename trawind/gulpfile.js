@@ -8,7 +8,7 @@ const ghPages = require('gulp-gh-pages')
 const md5 = require('md5')(new Date())
 
 gulp.task('deploy', function () {
-  return gulp.src('./_book/**/*')
+  return gulp.src(['./_book/**/*'])
     .pipe(ghPages())
 })
 

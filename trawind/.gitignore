@@ -1,0 +1,9 @@
+_book
+node_modules
+*.epub
+*.mobi
+*.pdf
+.publish
+dist
+gulpfile.js
+package.json
